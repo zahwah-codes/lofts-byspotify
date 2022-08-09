@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "PP Editorial New";
+  src: url ('../fonts/PPEditorialNew-Regular.woff2');
+}
+
+@font-face {
+  font-family: "PP Neue Montreal Medium";
+  src: url ('../fonts/PPNeueMontreal-Medium.woff2');
+}
+
+@font-face {
+  font-family: "PP Neue Montreal SemiBolditalic";
+  font-style: italic;
+  src: url ('../fonts/PPNeueMontreal-SemiBolditalic.woff2');
+}
+
+@font-face {
+  font-family: "PP Neue Montreal Thin";
+  src: url ('../fonts/PPNeueMontreal-Thin.woff2');
+}
+
+@font-face {
+  font-family: "PP Neue Montreal Italic";
+  font-style: italic;
+  src: url ('../fonts/PPNeueMontreal-Italic.woff2');
+}
+
+
+@layer base {
+    body {
+      @apply bg-black mt-3 scrollbar-hide;
+    }
+  }
+
+@layer components {
+    .sidebarIcon {
+        @apply  bg-white rounded-full p-2 text-black w-11 h-11 cursor-pointer;
+    }
+
+    .tag {
+      @apply py-3 px-5 text-white bg-black rounded-full text-sm font-neue;
+    }
+
+    .genre {
+      @apply bg-[#3811D6] text-[#CECECE] rounded-full py-3 px-3.5 text-[11px] cursor-default;
+    }
+
+    .icon {
+      @apply hover:scale-125 transition-all duration-150 ease-out;
+    }
+  
+    .croppedIcon {
+      clip-path: inset(0 50% 0 0);
+    }
+  
+    .playerIcon {
+      @apply transition ease-out transform hover:scale-105 hover:text-white;
+    }
+}
