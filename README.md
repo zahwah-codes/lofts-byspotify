@@ -1,34 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Lofts by Spotify
 
-## Getting Started
+Introducing the theme dashboard concept Lofts for Spotify! 
 
-First, run the development server:
+Getting board of the usual Spotify dashboard? Listen to your fav music in style with Lofts 💁‍♀️
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![This is an image] (https://github.com/zahwah-codes/lofts-byspotify/blob/b7b28d82c46b226cd7fa6753c239b0638c5857dc/dashboard.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Built With
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+* [NextJS](https://nextjs.org/) - The React framework used for production
+  
+* [Tailwind](https://tailwindcss.com/) - The CSS framework used to style the dashboard
 
-## Learn More
+* [NextAuth](https://next-auth.js.org/) - Authentication solution used for Spotify
 
-To learn more about Next.js, take a look at the following resources:
+* [Spotify API](https://developer.spotify.com/documentation/web-api/) - The API used to recieve Spotify data
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* [Recoil](https://recoiljs.org/) - State management within React
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
