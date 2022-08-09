@@ -35,8 +35,8 @@ function Poster({ track, chooseTrack }) {
         </div>
 
         <div className="absolute bottom-[230px] ml-4 flex flex-col items-center">
-          <h4 className="font-neue uppercase font-bold italic truncate text-[30px]">{track.title}</h4>
-          <h6 className="font-editorial text-[20px]">{track.artist}</h6>
+          <h4 className="font-neue uppercase font-bold italic truncate text-[23px]">{track.title}</h4>
+          <h6 className="font-editorial text-[18px]">{track.artist}</h6>
         </div>
       </div>
 
