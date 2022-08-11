@@ -2,7 +2,7 @@
 
 Introducing the theme dashboard concept Lofts for Spotify! 
 
-Getting board of the usual Spotify dashboard? Listen to your fav music in style with Lofts 💁‍♀️
+Getting bored of the usual Spotify dashboard? Listen to your fav music in style with Lofts 💁‍♀️
 
 ![Screenshot](https://github.com/zahwah-codes/lofts-byspotify/blob/67911f0e1c4d46627d966c1fdf469b7d695faed2/dashboard.jpg)
 
